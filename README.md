@@ -13,3 +13,8 @@
 Usa la palabra clave "rejected", osea que github lo ha rechazado. El apartado hint nos dice que actualicemos nuestro repositorio local porque en el remoto hay trabajo que no tenemos en el nuestro y que si queremos inetgrar los cambios que usemos "git pull".
 
 ### Tarea 2
+Aquí está la prueba del historial limpio.
+![Historial](imagen/tarea2.png)
+
+### Pregunta de reflexion
+Git bloqueo la subida porque en GitHub había una versión actualizada. En este caso es mejor "git pull --rebase" ya que solo coge los últimos cambios realizados en el repositorio y no el repositorio entero, esto permite mantener tus archivos locales.
